@@ -391,11 +391,106 @@ footer{
     }
 
     .carousel{
-        width          : 660px;   
+        width          : 660px;  
+    } 
+
+       .footer{
+            width: 660px;
+       }
+   
+       .cajaFooter{
+           display   : flex;    
+           flex-wrap : wrap;         
+           flex-direction: column;
+           margin-top: 8px;    
+       }   
+   
+       .cjaPie{
+           display: none;
+       }
+   
+       .derechos{
+           display: grid;
+           grid-template-columns: 
+           "contDerechos"
+           "contSitio";
+           width: 660px;
     }
 }
 
+/* CELU */
+@media(max-width:450px){
+    .cajaCarrusel{
+        display: grid;
+        grid-template-columns: 
+        "item1"        
+        "item2"
+        "item3";
+    }
 
+    .contenedorSeccion{
+        display: grid;
+        grid-template-columns: 
+        "seccionQuienesSomos"
+        "seccionLinks";
+    }
+
+    .seccionLinks{
+        display: none;
+    }
+    .seccionQuienesSomos{
+        width: 450px;
+    }
+
+    .contenedorA{
+        text-align: left;    
+    }
+
+    .cajaDerroteros{    
+        margin-top     : 8px;    
+        height         : 2520px; 
+        width          : 450px;   
+        display        : flex;
+        flex-wrap      : wrap;    
+        justify-content: space-evenly;
+        align-items    : center;
+    }
+
+    .mainIndex{
+        margin          : 0px 00px 0px 40px ;
+        height          : 4730px;        
+    }
+   
+    .otroTexto{
+        width          : 450px;   
+    }
+
+    .carousel{
+        width          : 450px;   
+    }
+
+    footer{
+         width: 450px;
+    }
+
+    .cajaFooter{
+        display   : flex;    
+        flex-wrap : wrap;         
+        flex-direction: column;
+        margin-top: 8px;    
+    }   
+
+    .cjaPie{
+        display: none;
+    }
+
+    .derechos{
+        display: grid;
+        grid-template-columns: 
+        "contDerechos"
+        "contSitio";
+        width: 450px;
+}
 
 
 
@@ -555,7 +650,6 @@ footer{
 .contenedorVideo iframe{
     margin-top : 140px;
     margin-left: 50px;
+} 
+
 }
-
-  
-
