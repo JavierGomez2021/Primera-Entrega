@@ -345,13 +345,22 @@ footer{
 
 /* TABLET */
 @media(max-width:768px) {
+  
+    .cajaClima{
+        /* background-color: black; */
+        width           : 760px;       
+    }
+
     .cajaCarrusel{
         display: grid;
         grid-template-columns: 
         "item1"        
         "item2"
-        "item3";
+        "item3";   
+        margin-left: 120px;                   
     }
+
+   
 
     .contenedorSeccion{
         display: grid;
@@ -364,7 +373,7 @@ footer{
         display: none;
     }
     .seccionQuienesSomos{
-        width: 660px;
+        width: 760px;
     }
 
     .contenedorA{
@@ -374,7 +383,7 @@ footer{
     .cajaDerroteros{    
         margin-top     : 8px;    
         height         : 1220px; 
-        width          : 660px;   
+        width          : 760px;   
         display        : flex;
         flex-wrap      : wrap;    
         justify-content: space-evenly;
@@ -387,15 +396,15 @@ footer{
     }
    
     .otroTexto{
-        width          : 660px;   
+        width          : 760px;   
     }
 
     .carousel{
-        width          : 660px;  
+        width          : 760px;  
     } 
 
        .footer{
-            width: 660px;
+            width: 760px;
        }
    
        .cajaFooter{
@@ -414,12 +423,31 @@ footer{
            grid-template-columns: 
            "contDerechos"
            "contSitio";
-           width: 660px;
+           width: 760px;
     }
 }
 
 /* CELU */
 @media(max-width:450px){
+
+    .cajaClima{
+        /* background-color: black; */
+        width           : 450px;       
+    }
+    .contenedorLogo{
+        /* background-color: black;     */
+        height          : 200px;
+        width           : 450px;
+        margin          : 0px 00px 0px 40px;
+        align-items: center;
+    }
+
+    .imgHeader{    
+        margin-left: 150px;;        
+        max-width : 50%;
+        max-height: 50%;          
+    }
+
     .cajaCarrusel{
         display: grid;
         grid-template-columns: 
@@ -439,7 +467,7 @@ footer{
         display: none;
     }
     .seccionQuienesSomos{
-        width: 420px;
+        width: 450px;
     }
 
     .contenedorA{
@@ -449,7 +477,7 @@ footer{
     .cajaDerroteros{    
         margin-top     : 8px;    
         height         : 2520px; 
-        width          : 420px;   
+        width          : 450px;   
         display        : flex;
         flex-wrap      : wrap;    
         justify-content: space-evenly;
@@ -462,15 +490,15 @@ footer{
     }
    
     .otroTexto{
-        width          : 420px;   
+        width          : 450px;   
     }
 
     .carousel{
-        width          : 420px;   
+        width          : 450px;   
     }
 
     footer{
-         width: 420px;
+         width: 450px;
     }
 
     .cajaFooter{
@@ -489,24 +517,22 @@ footer{
         grid-template-columns: 
         "contDerechos"
         "contSitio";
-        width: 420px;
+        width: 4S0px;
+    }
 }
-
-
-
 
 /*--------------------------------------------- CSS - contacto --------------------------------------------- */
 @media (max-width:768px){
 
     footer{
-        width : 660px;   
+        width : 760px;   
     }
 
     .contenedorContacto{
         border          : grey solid;
         margin-top: 5px;
         color: white;          
-        width: 660px;
+        width: 760px;
         text-transform: uppercase;
     }
     
@@ -548,6 +574,7 @@ footer{
 }
 
 @media (max-width:400px){
+    
     .contenedorContacto{
         border          : grey solid;
         margin-top: 5px;
@@ -565,8 +592,7 @@ footer{
     }   
 
     .formulario{
-        text-align: center;
-        
+        text-align: center;        
     }
 }
 
@@ -595,6 +621,7 @@ footer{
     transform: scale(1.8,1.0); 
     transition: all 1s;
 }
+
 .formulario{
     padding-left: 50px;
 }
@@ -652,4 +679,3 @@ footer{
     margin-left: 50px;
 } 
 
-}
