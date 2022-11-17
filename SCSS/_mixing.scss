@@ -1,0 +1,7 @@
+@mixin parrafo{        
+    color: white;
+}
+
+.parrafoConEstilo{
+    @include parrafo;
+}

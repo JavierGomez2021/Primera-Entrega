@@ -1,0 +1,11 @@
+.primerEstiloTitulo{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    text-align: center;
+    color: white
+}
+
+.segundoEstilo{
+    @extend .primerEstiloTitulo;
+    font-size: 35px;    
+}
